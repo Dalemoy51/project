@@ -190,4 +190,8 @@ Public Class Form1
         End Try
     End Sub
 
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Hide()
+        CustomerManagementSystem.Show()
+    End Sub
 End Class

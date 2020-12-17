@@ -59,6 +59,7 @@ Partial Class Form1
         Me.Label14 = New System.Windows.Forms.Label()
         Me.agetxt = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -79,7 +80,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label3.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(125, 210)
+        Me.Label3.Location = New System.Drawing.Point(147, 208)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(79, 19)
         Me.Label3.TabIndex = 6
@@ -90,7 +91,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(125, 255)
+        Me.Label4.Location = New System.Drawing.Point(147, 253)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(69, 19)
         Me.Label4.TabIndex = 7
@@ -101,7 +102,7 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(129, 432)
+        Me.Label5.Location = New System.Drawing.Point(151, 430)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(90, 19)
         Me.Label5.TabIndex = 10
@@ -118,7 +119,7 @@ Partial Class Form1
         'lasttxt
         '
         Me.lasttxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lasttxt.Location = New System.Drawing.Point(264, 205)
+        Me.lasttxt.Location = New System.Drawing.Point(286, 203)
         Me.lasttxt.Name = "lasttxt"
         Me.lasttxt.Size = New System.Drawing.Size(311, 26)
         Me.lasttxt.TabIndex = 16
@@ -126,7 +127,7 @@ Partial Class Form1
         'addtxt
         '
         Me.addtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.addtxt.Location = New System.Drawing.Point(264, 250)
+        Me.addtxt.Location = New System.Drawing.Point(286, 248)
         Me.addtxt.Multiline = True
         Me.addtxt.Name = "addtxt"
         Me.addtxt.Size = New System.Drawing.Size(311, 82)
@@ -135,7 +136,7 @@ Partial Class Form1
         'contacttxt
         '
         Me.contacttxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.contacttxt.Location = New System.Drawing.Point(264, 429)
+        Me.contacttxt.Location = New System.Drawing.Point(286, 427)
         Me.contacttxt.Name = "contacttxt"
         Me.contacttxt.Size = New System.Drawing.Size(311, 26)
         Me.contacttxt.TabIndex = 20
@@ -146,7 +147,7 @@ Partial Class Form1
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.Button1.Location = New System.Drawing.Point(261, 667)
+        Me.Button1.Location = New System.Drawing.Point(168, 667)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(108, 36)
         Me.Button1.TabIndex = 25
@@ -158,7 +159,7 @@ Partial Class Form1
         Me.Button3.BackColor = System.Drawing.Color.FloralWhite
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(614, 667)
+        Me.Button3.Location = New System.Drawing.Point(521, 667)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(108, 36)
         Me.Button3.TabIndex = 28
@@ -173,7 +174,7 @@ Partial Class Form1
         'credittxt
         '
         Me.credittxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.credittxt.Location = New System.Drawing.Point(264, 474)
+        Me.credittxt.Location = New System.Drawing.Point(286, 472)
         Me.credittxt.Name = "credittxt"
         Me.credittxt.Size = New System.Drawing.Size(311, 26)
         Me.credittxt.TabIndex = 21
@@ -183,7 +184,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(129, 479)
+        Me.Label1.Location = New System.Drawing.Point(151, 477)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 19)
         Me.Label1.TabIndex = 11
@@ -192,7 +193,7 @@ Partial Class Form1
         'debittxt
         '
         Me.debittxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.debittxt.Location = New System.Drawing.Point(264, 518)
+        Me.debittxt.Location = New System.Drawing.Point(286, 516)
         Me.debittxt.Name = "debittxt"
         Me.debittxt.Size = New System.Drawing.Size(311, 26)
         Me.debittxt.TabIndex = 22
@@ -202,7 +203,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(129, 523)
+        Me.Label6.Location = New System.Drawing.Point(151, 521)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 19)
         Me.Label6.TabIndex = 12
@@ -211,7 +212,7 @@ Partial Class Form1
         'purchasetxt
         '
         Me.purchasetxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.purchasetxt.Location = New System.Drawing.Point(264, 566)
+        Me.purchasetxt.Location = New System.Drawing.Point(286, 564)
         Me.purchasetxt.Name = "purchasetxt"
         Me.purchasetxt.Size = New System.Drawing.Size(311, 26)
         Me.purchasetxt.TabIndex = 23
@@ -221,7 +222,7 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label7.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(129, 571)
+        Me.Label7.Location = New System.Drawing.Point(151, 569)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(132, 19)
         Me.Label7.TabIndex = 13
@@ -230,7 +231,7 @@ Partial Class Form1
         'returntxt
         '
         Me.returntxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.returntxt.Location = New System.Drawing.Point(264, 614)
+        Me.returntxt.Location = New System.Drawing.Point(286, 612)
         Me.returntxt.Name = "returntxt"
         Me.returntxt.Size = New System.Drawing.Size(311, 26)
         Me.returntxt.TabIndex = 24
@@ -240,7 +241,7 @@ Partial Class Form1
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(129, 619)
+        Me.Label8.Location = New System.Drawing.Point(151, 617)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(112, 19)
         Me.Label8.TabIndex = 14
@@ -251,7 +252,7 @@ Partial Class Form1
         Me.Button2.BackColor = System.Drawing.Color.Azure
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(381, 667)
+        Me.Button2.Location = New System.Drawing.Point(288, 667)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(108, 36)
         Me.Button2.TabIndex = 26
@@ -261,11 +262,13 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Highlight
+        Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Controls.Add(Me.srchbtn)
         Me.Panel1.Controls.Add(Me.TextBox9)
         Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.Panel3)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(774, 111)
@@ -341,7 +344,7 @@ Partial Class Form1
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label11.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(125, 169)
+        Me.Label11.Location = New System.Drawing.Point(147, 167)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(80, 19)
         Me.Label11.TabIndex = 5
@@ -350,7 +353,7 @@ Partial Class Form1
         'firsttxt
         '
         Me.firsttxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firsttxt.Location = New System.Drawing.Point(264, 162)
+        Me.firsttxt.Location = New System.Drawing.Point(286, 160)
         Me.firsttxt.Name = "firsttxt"
         Me.firsttxt.Size = New System.Drawing.Size(311, 26)
         Me.firsttxt.TabIndex = 15
@@ -385,7 +388,7 @@ Partial Class Form1
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button4.Location = New System.Drawing.Point(496, 667)
+        Me.Button4.Location = New System.Drawing.Point(403, 667)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(112, 36)
         Me.Button4.TabIndex = 27
@@ -395,7 +398,7 @@ Partial Class Form1
         'gentxt
         '
         Me.gentxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gentxt.Location = New System.Drawing.Point(264, 347)
+        Me.gentxt.Location = New System.Drawing.Point(286, 345)
         Me.gentxt.Multiline = True
         Me.gentxt.Name = "gentxt"
         Me.gentxt.Size = New System.Drawing.Size(311, 28)
@@ -406,7 +409,7 @@ Partial Class Form1
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label14.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(129, 356)
+        Me.Label14.Location = New System.Drawing.Point(151, 354)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(64, 19)
         Me.Label14.TabIndex = 8
@@ -415,7 +418,7 @@ Partial Class Form1
         'agetxt
         '
         Me.agetxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.agetxt.Location = New System.Drawing.Point(264, 387)
+        Me.agetxt.Location = New System.Drawing.Point(286, 385)
         Me.agetxt.Multiline = True
         Me.agetxt.Name = "agetxt"
         Me.agetxt.Size = New System.Drawing.Size(311, 30)
@@ -426,11 +429,20 @@ Partial Class Form1
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.Label15.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(129, 399)
+        Me.Label15.Location = New System.Drawing.Point(151, 397)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(43, 19)
         Me.Label15.TabIndex = 9
         Me.Label15.Text = "Age :"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(13, 70)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 25
+        Me.Button5.Text = "Go back"
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -517,4 +529,5 @@ Partial Class Form1
     Friend WithEvents Label14 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
+    Friend WithEvents Button5 As Button
 End Class

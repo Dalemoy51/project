@@ -59,7 +59,6 @@ Partial Class Form1
         Me.Label14 = New System.Windows.Forms.Label()
         Me.agetxt = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -262,7 +261,6 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Controls.Add(Me.srchbtn)
         Me.Panel1.Controls.Add(Me.TextBox9)
         Me.Panel1.Controls.Add(Me.Panel2)
@@ -435,15 +433,6 @@ Partial Class Form1
         Me.Label15.TabIndex = 9
         Me.Label15.Text = "Age :"
         '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(13, 70)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 25
-        Me.Button5.Text = "Go back"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -529,5 +518,4 @@ Partial Class Form1
     Friend WithEvents Label14 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents Button5 As Button
 End Class

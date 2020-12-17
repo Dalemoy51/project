@@ -67,7 +67,7 @@
         openCon()
         Try
             cmd.Connection = con
-            cmd.CommandText = "SELECT  `customer_id`, `Firstname`,`Lasname`,`Address`,`Conctact_no`,`Credit`,`Debit`,`Product_pruchase`,`Product_return`,`Gender`,`Age` FROM customers WHERE Firstname LIKE '%" & TextBox1.Text & "'"
+            cmd.CommandText = "SELECT  `customer_id`, `Firstname`,`Lasname`,`Address`,`Conctact_no`,`Credit`,`Debit`,`Product_pruchase`,`Product_return`,`Gender`,`Age` FROM customers WHERE Firstname LIKE '%" & TextBox1.Text & "%'"
             cmd.ExecuteNonQuery()
             table.Clear()
             adapter.SelectCommand = cmd
